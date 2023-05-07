@@ -10,11 +10,13 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.10.1",
-    "@strapi/plugin-i18n": "4.10.1",
-    "@strapi/plugin-users-permissions": "4.10.1",
-    "@strapi/strapi": "4.10.1",
+    "@strapi/plugin-graphql": "^4.10.2",
+    "@strapi/plugin-i18n": "4.10.2",
+    "@strapi/plugin-users-permissions": "4.10.2",
+    "@strapi/strapi": "4.10.2",
     "better-sqlite3": "8.3.0",
+    "pg": "^8.10.0",
+    "pg-connection-string": "^2.5.0",
     "strapi-chatgpt": "^1.0.2"
   },
   "author": {
@@ -24,8 +26,7 @@
     "uuid": "4a70e69a-acf9-4538-bd39-bdfa9dd56a5c"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=14.19.1 <=18.x.x"
   },
   "license": "MIT"
 }
