@@ -15,6 +15,7 @@
     "@strapi/plugin-users-permissions": "4.10.2",
     "@strapi/strapi": "4.10.2",
     "better-sqlite3": "8.3.0",
+    "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
     "strapi-chatgpt": "^1.0.2"
   },
