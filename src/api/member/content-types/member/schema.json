@@ -4,7 +4,8 @@
   "info": {
     "singularName": "member",
     "pluralName": "members",
-    "displayName": "member"
+    "displayName": "member",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -48,14 +49,15 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -69,6 +71,14 @@
         }
       },
       "type": "json"
+    },
+    "linkedin": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
